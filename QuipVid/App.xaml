@@ -16,5 +16,13 @@
             <Setter Property="Shell.TabBarTitleColor" Value="White" />
         </Style>
         <Style x:Key="DefaultShellStyle" TargetType="Element" BasedOn="{StaticResource BaseStyle}" />
+        <Style TargetType="Entry">
+            <Setter Property="BackgroundColor" Value="White"></Setter>
+            <Setter Property="TextColor" Value="Black"></Setter>
+        </Style>
+        <Style TargetType="Editor">
+            <Setter Property="BackgroundColor" Value="White"></Setter>
+            <Setter Property="TextColor" Value="Black"></Setter>
+        </Style>
     </Application.Resources>
 </Application>

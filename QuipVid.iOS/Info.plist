@@ -25,7 +25,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>QuipVid</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.levizitting.QuipVid</string>
+	<string>com.levizitting.QuipVidTest</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>
