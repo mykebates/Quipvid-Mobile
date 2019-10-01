@@ -6,6 +6,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Xamarin.Essentials;
+using Xamarin.Forms.Platform.Android;
 
 namespace QuipVid.Droid
 {
