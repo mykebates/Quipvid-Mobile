@@ -41,7 +41,12 @@ namespace QuipVid.Views
 
         async void AddItem_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new NavigationPage(new NewItemPage()));
+            
+            await Navigation.PushModalAsync(new NavigationPage(new NewItemPage())
+            {
+                BarBackgroundColor = (Color) App.Current.Resources["NavigationPrimary"],
+                BarTextColor = Color.White,
+            });
         }
 
         protected override void OnAppearing()
