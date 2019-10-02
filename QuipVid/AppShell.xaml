@@ -2,6 +2,7 @@
 
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:controls="clr-namespace:QuipVid.Controls;assembly=QuipVid"
        xmlns:views="clr-namespace:QuipVid.Views"
        Title="QuipVid"
        x:Class="QuipVid.AppShell">
@@ -13,14 +14,14 @@
 
     <FlyoutItem>
         <Tab>
-            <ShellContent Title="Browse" Icon="tab_feed.png" Style="{StaticResource DefaultShellStyle}">
+            <ShellContent Title="QuipVid" Style="{StaticResource DefaultShellStyle}">
                 <views:ItemsPage />
             </ShellContent>
         </Tab>
     </FlyoutItem>
     <FlyoutItem>
         <Tab>
-            <ShellContent Title="About" Icon="tab_about.png" Style="{StaticResource DefaultShellStyle}">
+            <ShellContent Title="About" Style="{StaticResource DefaultShellStyle}">
                 <views:AboutPage />
             </ShellContent>
         </Tab>

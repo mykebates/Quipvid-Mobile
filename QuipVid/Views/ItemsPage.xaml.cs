@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -23,7 +24,7 @@ namespace QuipVid.Views
         public ItemsPage()
         {
             InitializeComponent();
-
+            
             BindingContext = viewModel = new ItemsViewModel();
         }
 
@@ -37,16 +38,6 @@ namespace QuipVid.Views
 
             // Manually deselect item.
             ItemsListView.SelectedItem = null;
-        }
-
-        async void AddItem_Clicked(object sender, EventArgs e)
-        {
-            
-            await Navigation.PushModalAsync(new NavigationPage(new NewItemPage())
-            {
-                BarBackgroundColor = (Color) App.Current.Resources["NavigationPrimary"],
-                BarTextColor = Color.White,
-            });
         }
 
         protected override void OnAppearing()
