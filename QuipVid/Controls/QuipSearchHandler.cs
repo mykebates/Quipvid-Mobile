@@ -9,13 +9,16 @@ namespace QuipVid.Controls
         {
             ShowsResults = true;
             Placeholder = "Enter search term";
-            PlaceholderColor = (Color) App.Current.Resources["NavigationAccent"];
             TextColor = Color.White;
             BackgroundColor = (Color) App.Current.Resources["NavigationPrimary"];
-
-            if (Device.RuntimePlatform == Device.Android)
+            
+            // Currently setting the SearchBoxVisibility or the PlaceholderColor in iOS does not work properly
+            // https://github.com/xamarin/Xamarin.Forms/issues/6726
+            // https://github.com/xamarin/Xamarin.Forms/issues/7695
+            if (!(Device.RuntimePlatform == Device.iOS))
             {
                 SearchBoxVisibility = SearchBoxVisibility.Collapsible;
+                PlaceholderColor = (Color) App.Current.Resources["NavigationAccent"];
             }
             else
             {
