@@ -12,11 +12,8 @@
             <Setter Property="Shell.TitleColor" Value="White" />
             <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
             <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
-            <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
-            <Setter Property="Shell.TabBarForegroundColor" Value="White" />
-            <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF" />
-            <Setter Property="Shell.TabBarTitleColor" Value="White" />
         </Style>
+        <Style TargetType="ShellItem" BasedOn="{StaticResource BaseStyle}" />
         <Style x:Key="DefaultShellStyle" TargetType="Element" BasedOn="{StaticResource BaseStyle}" />
         <Style TargetType="Entry">
             <Setter Property="BackgroundColor" Value="White" />
@@ -26,9 +23,9 @@
             <Setter Property="BackgroundColor" Value="White" />
             <Setter Property="TextColor" Value="Black" />
         </Style>
-        <Style TargetType="Label">
-            <Setter Property="BackgroundColor" Value="White" />
-            <Setter Property="TextColor" Value="Black" />
-        </Style>
+        <!-- <Style TargetType="Label"> -->
+        <!--     <Setter Property="BackgroundColor" Value="White" /> -->
+        <!--     <Setter Property="TextColor" Value="Black" /> -->
+        <!-- </Style> -->
     </Application.Resources>
 </Application>
