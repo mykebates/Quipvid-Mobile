@@ -12,8 +12,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Images\logo.png" />
+    <None Remove="Images\carouseloverlay.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Images\logo.png" />
+    <EmbeddedResource Include="Images\carouseloverlay.png" />
   </ItemGroup>
 </Project>
