@@ -10,11 +10,7 @@
         <controls:QuipSearchHandler />
     </Shell.SearchHandler>
     <Shell.TitleView>
-        <StackLayout Orientation="Horizontal">
-            <StackLayout Orientation="Horizontal" VerticalOptions="Center" HeightRequest="30">
-                <Image Source="{images:ImageResource QuipVid.Images.logo.png}" Aspect="AspectFit" HorizontalOptions="EndAndExpand"></Image>
-            </StackLayout>
-        </StackLayout>
+        <controls:Logo />
     </Shell.TitleView>
     <StackLayout>
         <ListView x:Name="ItemsListView"
