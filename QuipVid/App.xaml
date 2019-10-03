@@ -4,10 +4,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="QuipVid.App">
     <Application.Resources>
-        <Color x:Key="NavigationPrimary">#272727</Color>
-        <Color x:Key="NavigationAccent">#FFCD00</Color>
+        <Color x:Key="PrimaryColor">#272727</Color>
+        <Color x:Key="AccentColor">#FFCD00</Color>
         <Style x:Key="BaseStyle" TargetType="Element">
-            <Setter Property="Shell.BackgroundColor" Value="{StaticResource NavigationPrimary}" />
+            <Setter Property="Shell.BackgroundColor" Value="{StaticResource PrimaryColor}" />
             <Setter Property="Shell.ForegroundColor" Value="White" />
             <Setter Property="Shell.TitleColor" Value="White" />
             <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />

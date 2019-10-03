@@ -7,6 +7,7 @@ using Android.Widget;
 using Android.OS;
 using Xamarin.Essentials;
 using Xamarin.Forms.Platform.Android;
+using CarouselView.FormsPlugin;
 
 namespace QuipVid.Droid
 {
@@ -23,6 +24,7 @@ namespace QuipVid.Droid
             global::Xamarin.Forms.Forms.SetFlags("CollectionView_Experimental");
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            CarouselView.FormsPlugin.Android.CarouselViewRenderer.Init();
             LoadApplication(new App());
         }
 

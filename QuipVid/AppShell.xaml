@@ -15,7 +15,7 @@
     <FlyoutItem Title="Home">
         <Tab>
             <ShellContent Style="{StaticResource DefaultShellStyle}">
-                <views:ItemsPage />
+                <views:HomePage />
             </ShellContent>
         </Tab>
     </FlyoutItem>
@@ -26,5 +26,4 @@
             </ShellContent>
         </Tab>
     </FlyoutItem>
-
 </Shell>
