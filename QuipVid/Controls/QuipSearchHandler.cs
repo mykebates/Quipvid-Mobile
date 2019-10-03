@@ -11,7 +11,7 @@ namespace QuipVid.Controls
             Placeholder = "Enter search term";
             TextColor = Color.White;
             BackgroundColor = (Color) App.Current.Resources["NavigationPrimary"];
-            
+
             // Currently setting the SearchBoxVisibility or the PlaceholderColor in iOS does not work properly
             // https://github.com/xamarin/Xamarin.Forms/issues/6726
             // https://github.com/xamarin/Xamarin.Forms/issues/7695

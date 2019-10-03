@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel;
 using Xamarin.Forms;
-
 using QuipVid.Models;
 using QuipVid.ViewModels;
 
@@ -16,7 +15,7 @@ namespace QuipVid.Views
         public ItemsPage()
         {
             InitializeComponent();
-            
+
             BindingContext = viewModel = new ItemsViewModel();
         }
 
