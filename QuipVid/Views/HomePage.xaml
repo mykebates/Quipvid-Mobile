@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:QuipVid.Controls;assembly=QuipVid"
+             x:Class="QuipVid.Views.HomePage"
+             x:Name="BrowseItemsPage">
+    <Shell.SearchHandler>
+        <controls:QuipSearchHandler />
+    </Shell.SearchHandler>
+    <Shell.TitleView>
+        <controls:Logo />
+    </Shell.TitleView>
+    <ScrollView>
+        <StackLayout>
+            <controls:QuipCarousel HeightRequest="300"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
