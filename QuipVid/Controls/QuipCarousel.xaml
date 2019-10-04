@@ -7,20 +7,13 @@
              x:Class="QuipVid.Controls.QuipCarousel"
              BackgroundColor="{StaticResource PrimaryColor}">
     <carousel:CarouselViewControl Orientation="Horizontal"
+                                  x:Name="CarouselView"
                                   Position="0"
                                   VerticalOptions="FillAndExpand"
                                   HorizontalOptions="FillAndExpand"
                                   HeightRequest="300"
                                   ShowIndicators="True"
                                   CurrentPageIndicatorTintColor="{StaticResource AccentColor}">
-        <carousel:CarouselViewControl.ItemsSource>
-            <x:Array Type="{x:Type x:String}">
-                <x:String>Test 1</x:String>
-                <x:String>Test 2</x:String>
-                <x:String>Test 3</x:String>
-                <x:String>Test 4</x:String>
-            </x:Array>
-        </carousel:CarouselViewControl.ItemsSource>
         <carousel:CarouselViewControl.ItemTemplate>
             <DataTemplate>
                 <ContentView>

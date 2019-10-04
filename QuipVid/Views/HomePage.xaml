@@ -13,7 +13,7 @@
     </Shell.TitleView>
     <ScrollView>
         <StackLayout>
-            <controls:QuipCarousel HeightRequest="300"/>
+            <controls:QuipCarousel x:Name="QuipCarousel" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

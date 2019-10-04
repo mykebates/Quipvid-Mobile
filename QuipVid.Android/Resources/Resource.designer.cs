@@ -81,9 +81,15 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogTheme = global::QuipVid.Droid.Resource.Attribute.alertDialogTheme;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.allowStacking = global::QuipVid.Droid.Resource.Attribute.allowStacking;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alpha = global::QuipVid.Droid.Resource.Attribute.alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alphabeticModifiers = global::QuipVid.Droid.Resource.Attribute.alphabeticModifiers;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.arrowHeadLength = global::QuipVid.Droid.Resource.Attribute.arrowHeadLength;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.arrowShaftLength = global::QuipVid.Droid.Resource.Attribute.arrowShaftLength;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.autoCompleteTextViewStyle = global::QuipVid.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.autoSizeMaxTextSize = global::QuipVid.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.autoSizeMinTextSize = global::QuipVid.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.autoSizePresetSizes = global::QuipVid.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.autoSizeStepGranularity = global::QuipVid.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.autoSizeTextType = global::QuipVid.Droid.Resource.Attribute.autoSizeTextType;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.background = global::QuipVid.Droid.Resource.Attribute.background;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundSplit = global::QuipVid.Droid.Resource.Attribute.backgroundSplit;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundStacked = global::QuipVid.Droid.Resource.Attribute.backgroundStacked;
@@ -131,10 +137,12 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorControlActivated = global::QuipVid.Droid.Resource.Attribute.colorControlActivated;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorControlHighlight = global::QuipVid.Droid.Resource.Attribute.colorControlHighlight;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorControlNormal = global::QuipVid.Droid.Resource.Attribute.colorControlNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorError = global::QuipVid.Droid.Resource.Attribute.colorError;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorPrimary = global::QuipVid.Droid.Resource.Attribute.colorPrimary;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorPrimaryDark = global::QuipVid.Droid.Resource.Attribute.colorPrimaryDark;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorSwitchThumbNormal = global::QuipVid.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.commitIcon = global::QuipVid.Droid.Resource.Attribute.commitIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentDescription = global::QuipVid.Droid.Resource.Attribute.contentDescription;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetEnd = global::QuipVid.Droid.Resource.Attribute.contentInsetEnd;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetEndWithActions = global::QuipVid.Droid.Resource.Attribute.contentInsetEndWithActions;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetLeft = global::QuipVid.Droid.Resource.Attribute.contentInsetLeft;
@@ -181,6 +189,21 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginTop = global::QuipVid.Droid.Resource.Attribute.expandedTitleMarginTop;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleTextAppearance = global::QuipVid.Droid.Resource.Attribute.expandedTitleTextAppearance;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fabSize = global::QuipVid.Droid.Resource.Attribute.fabSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fastScrollEnabled = global::QuipVid.Droid.Resource.Attribute.fastScrollEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::QuipVid.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::QuipVid.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::QuipVid.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::QuipVid.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.font = global::QuipVid.Droid.Resource.Attribute.font;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fontFamily = global::QuipVid.Droid.Resource.Attribute.fontFamily;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fontProviderAuthority = global::QuipVid.Droid.Resource.Attribute.fontProviderAuthority;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fontProviderCerts = global::QuipVid.Droid.Resource.Attribute.fontProviderCerts;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fontProviderFetchStrategy = global::QuipVid.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fontProviderFetchTimeout = global::QuipVid.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fontProviderPackage = global::QuipVid.Droid.Resource.Attribute.fontProviderPackage;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fontProviderQuery = global::QuipVid.Droid.Resource.Attribute.fontProviderQuery;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fontStyle = global::QuipVid.Droid.Resource.Attribute.fontStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fontWeight = global::QuipVid.Droid.Resource.Attribute.fontWeight;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.foregroundInsidePadding = global::QuipVid.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.gapBetweenBars = global::QuipVid.Droid.Resource.Attribute.gapBetweenBars;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.goIcon = global::QuipVid.Droid.Resource.Attribute.goIcon;
@@ -193,6 +216,8 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.homeAsUpIndicator = global::QuipVid.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.homeLayout = global::QuipVid.Droid.Resource.Attribute.homeLayout;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.icon = global::QuipVid.Droid.Resource.Attribute.icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.iconTint = global::QuipVid.Droid.Resource.Attribute.iconTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.iconTintMode = global::QuipVid.Droid.Resource.Attribute.iconTintMode;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.iconifiedByDefault = global::QuipVid.Droid.Resource.Attribute.iconifiedByDefault;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.imageButtonStyle = global::QuipVid.Droid.Resource.Attribute.imageButtonStyle;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.indeterminateProgressStyle = global::QuipVid.Droid.Resource.Attribute.indeterminateProgressStyle;
@@ -238,6 +263,7 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.navigationContentDescription = global::QuipVid.Droid.Resource.Attribute.navigationContentDescription;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.navigationIcon = global::QuipVid.Droid.Resource.Attribute.navigationIcon;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.navigationMode = global::QuipVid.Droid.Resource.Attribute.navigationMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.numericModifiers = global::QuipVid.Droid.Resource.Attribute.numericModifiers;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.overlapAnchor = global::QuipVid.Droid.Resource.Attribute.overlapAnchor;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingBottomNoButtons = global::QuipVid.Droid.Resource.Attribute.paddingBottomNoButtons;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingEnd = global::QuipVid.Droid.Resource.Attribute.paddingEnd;
@@ -353,6 +379,9 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.toolbarId = global::QuipVid.Droid.Resource.Attribute.toolbarId;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::QuipVid.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.toolbarStyle = global::QuipVid.Droid.Resource.Attribute.toolbarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tooltipForegroundColor = global::QuipVid.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tooltipFrameBackground = global::QuipVid.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tooltipText = global::QuipVid.Droid.Resource.Attribute.tooltipText;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.track = global::QuipVid.Droid.Resource.Attribute.track;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.trackTint = global::QuipVid.Droid.Resource.Attribute.trackTint;
 			global::CarouselView.FormsPlugin.Android.Resource.Attribute.trackTintMode = global::QuipVid.Droid.Resource.Attribute.trackTintMode;
@@ -481,6 +510,8 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_material_light = global::QuipVid.Droid.Resource.Color.switch_thumb_material_light;
 			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_normal_material_dark = global::QuipVid.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_normal_material_light = global::QuipVid.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.tooltip_background_dark = global::QuipVid.Droid.Resource.Color.tooltip_background_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.tooltip_background_light = global::QuipVid.Droid.Resource.Color.tooltip_background_light;
 			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__background_holo_dark = global::QuipVid.Droid.Resource.Color.vpi__background_holo_dark;
 			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__background_holo_light = global::QuipVid.Droid.Resource.Color.vpi__background_holo_light;
 			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_disabled_holo_dark = global::QuipVid.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_dark;
@@ -565,6 +596,11 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Dimension.cardview_compat_inset_shadow = global::QuipVid.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::CarouselView.FormsPlugin.Android.Resource.Dimension.cardview_default_elevation = global::QuipVid.Droid.Resource.Dimension.cardview_default_elevation;
 			global::CarouselView.FormsPlugin.Android.Resource.Dimension.cardview_default_radius = global::QuipVid.Droid.Resource.Dimension.cardview_default_radius;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::QuipVid.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.compat_button_inset_vertical_material = global::QuipVid.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::QuipVid.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.compat_button_padding_vertical_material = global::QuipVid.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.compat_control_corner_material = global::QuipVid.Droid.Resource.Dimension.compat_control_corner_material;
 			global::CarouselView.FormsPlugin.Android.Resource.Dimension.default_circle_indicator_radius = global::QuipVid.Droid.Resource.Dimension.default_circle_indicator_radius;
 			global::CarouselView.FormsPlugin.Android.Resource.Dimension.default_circle_indicator_stroke_width = global::QuipVid.Droid.Resource.Dimension.default_circle_indicator_stroke_width;
 			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_appbar_elevation = global::QuipVid.Droid.Resource.Dimension.design_appbar_elevation;
@@ -607,6 +643,9 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_text_size_2line = global::QuipVid.Droid.Resource.Dimension.design_tab_text_size_2line;
 			global::CarouselView.FormsPlugin.Android.Resource.Dimension.disabled_alpha_material_dark = global::QuipVid.Droid.Resource.Dimension.disabled_alpha_material_dark;
 			global::CarouselView.FormsPlugin.Android.Resource.Dimension.disabled_alpha_material_light = global::QuipVid.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.fastscroll_default_thickness = global::QuipVid.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.fastscroll_margin = global::QuipVid.Droid.Resource.Dimension.fastscroll_margin;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.fastscroll_minimum_range = global::QuipVid.Droid.Resource.Dimension.fastscroll_minimum_range;
 			global::CarouselView.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_colored = global::QuipVid.Droid.Resource.Dimension.highlight_alpha_material_colored;
 			global::CarouselView.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_dark = global::QuipVid.Droid.Resource.Dimension.highlight_alpha_material_dark;
 			global::CarouselView.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_light = global::QuipVid.Droid.Resource.Dimension.highlight_alpha_material_light;
@@ -632,6 +671,14 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_subtext_size = global::QuipVid.Droid.Resource.Dimension.notification_subtext_size;
 			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_top_pad = global::QuipVid.Droid.Resource.Dimension.notification_top_pad;
 			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_top_pad_large_text = global::QuipVid.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.tooltip_corner_radius = global::QuipVid.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.tooltip_horizontal_padding = global::QuipVid.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.tooltip_margin = global::QuipVid.Droid.Resource.Dimension.tooltip_margin;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::QuipVid.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::QuipVid.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.tooltip_vertical_padding = global::QuipVid.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::QuipVid.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.tooltip_y_offset_touch = global::QuipVid.Droid.Resource.Dimension.tooltip_y_offset_touch;
 			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::QuipVid.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
 			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_action_bar_item_background_material = global::QuipVid.Droid.Resource.Drawable.abc_action_bar_item_background_material;
 			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_borderless_material = global::QuipVid.Droid.Resource.Drawable.abc_btn_borderless_material;
@@ -739,7 +786,15 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_tile_bg = global::QuipVid.Droid.Resource.Drawable.notification_tile_bg;
 			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::QuipVid.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
 			global::CarouselView.FormsPlugin.Android.Resource.Drawable.Prev = global::QuipVid.Droid.Resource.Drawable.Prev;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.tooltip_frame_dark = global::QuipVid.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.tooltip_frame_light = global::QuipVid.Droid.Resource.Drawable.tooltip_frame_light;
 			global::CarouselView.FormsPlugin.Android.Resource.Drawable.Up = global::QuipVid.Droid.Resource.Drawable.Up;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.ALT = global::QuipVid.Droid.Resource.Id.ALT;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.CTRL = global::QuipVid.Droid.Resource.Id.CTRL;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.FUNCTION = global::QuipVid.Droid.Resource.Id.FUNCTION;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.META = global::QuipVid.Droid.Resource.Id.META;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.SHIFT = global::QuipVid.Droid.Resource.Id.SHIFT;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.SYM = global::QuipVid.Droid.Resource.Id.SYM;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.action0 = global::QuipVid.Droid.Resource.Id.action0;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar = global::QuipVid.Droid.Resource.Id.action_bar;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_activity_content = global::QuipVid.Droid.Resource.Id.action_bar_activity_content;
@@ -764,8 +819,10 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Id.alertTitle = global::QuipVid.Droid.Resource.Id.alertTitle;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.all = global::QuipVid.Droid.Resource.Id.all;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.always = global::QuipVid.Droid.Resource.Id.always;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.async = global::QuipVid.Droid.Resource.Id.async;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.auto = global::QuipVid.Droid.Resource.Id.auto;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.beginning = global::QuipVid.Droid.Resource.Id.beginning;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.blocking = global::QuipVid.Droid.Resource.Id.blocking;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.bottom = global::QuipVid.Droid.Resource.Id.bottom;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.buttonPanel = global::QuipVid.Droid.Resource.Id.buttonPanel;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.cancel_action = global::QuipVid.Droid.Resource.Id.cancel_action;
@@ -802,6 +859,8 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Id.fill_horizontal = global::QuipVid.Droid.Resource.Id.fill_horizontal;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.fill_vertical = global::QuipVid.Droid.Resource.Id.fill_vertical;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.@fixed = global::QuipVid.Droid.Resource.Id.@fixed;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.forever = global::QuipVid.Droid.Resource.Id.forever;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.ghost_view = global::QuipVid.Droid.Resource.Id.ghost_view;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.home = global::QuipVid.Droid.Resource.Id.home;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.homeAsUp = global::QuipVid.Droid.Resource.Id.homeAsUp;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.horizontal = global::QuipVid.Droid.Resource.Id.horizontal;
@@ -811,6 +870,7 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Id.image = global::QuipVid.Droid.Resource.Id.image;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.indicator = global::QuipVid.Droid.Resource.Id.indicator;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.info = global::QuipVid.Droid.Resource.Id.info;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.italic = global::QuipVid.Droid.Resource.Id.italic;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.item_touch_helper_previous_elevation = global::QuipVid.Droid.Resource.Id.item_touch_helper_previous_elevation;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.largeLabel = global::QuipVid.Droid.Resource.Id.largeLabel;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.left = global::QuipVid.Droid.Resource.Id.left;
@@ -820,6 +880,7 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Id.list_item = global::QuipVid.Droid.Resource.Id.list_item;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.masked = global::QuipVid.Droid.Resource.Id.masked;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.media_actions = global::QuipVid.Droid.Resource.Id.media_actions;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.message = global::QuipVid.Droid.Resource.Id.message;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.middle = global::QuipVid.Droid.Resource.Id.middle;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.mini = global::QuipVid.Droid.Resource.Id.mini;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.multiply = global::QuipVid.Droid.Resource.Id.multiply;
@@ -835,6 +896,7 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Id.pager = global::QuipVid.Droid.Resource.Id.pager;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.parallax = global::QuipVid.Droid.Resource.Id.parallax;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.parentPanel = global::QuipVid.Droid.Resource.Id.parentPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.parent_matrix = global::QuipVid.Droid.Resource.Id.parent_matrix;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.pin = global::QuipVid.Droid.Resource.Id.pin;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.prev = global::QuipVid.Droid.Resource.Id.prev;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.prevArrow = global::QuipVid.Droid.Resource.Id.prevArrow;
@@ -844,6 +906,9 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Id.right = global::QuipVid.Droid.Resource.Id.right;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.right_icon = global::QuipVid.Droid.Resource.Id.right_icon;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.right_side = global::QuipVid.Droid.Resource.Id.right_side;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.save_image_matrix = global::QuipVid.Droid.Resource.Id.save_image_matrix;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.save_non_transition_alpha = global::QuipVid.Droid.Resource.Id.save_non_transition_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.save_scale_type = global::QuipVid.Droid.Resource.Id.save_scale_type;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.screen = global::QuipVid.Droid.Resource.Id.screen;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.scroll = global::QuipVid.Droid.Resource.Id.scroll;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollIndicatorDown = global::QuipVid.Droid.Resource.Id.scrollIndicatorDown;
@@ -894,7 +959,11 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Id.topPanel = global::QuipVid.Droid.Resource.Id.topPanel;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.touch_outside = global::QuipVid.Droid.Resource.Id.touch_outside;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.transition_current_scene = global::QuipVid.Droid.Resource.Id.transition_current_scene;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.transition_layout_save = global::QuipVid.Droid.Resource.Id.transition_layout_save;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.transition_position = global::QuipVid.Droid.Resource.Id.transition_position;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.transition_scene_layoutid_cache = global::QuipVid.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.transition_transform = global::QuipVid.Droid.Resource.Id.transition_transform;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.uniform = global::QuipVid.Droid.Resource.Id.uniform;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.up = global::QuipVid.Droid.Resource.Id.up;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.useLogo = global::QuipVid.Droid.Resource.Id.useLogo;
 			global::CarouselView.FormsPlugin.Android.Resource.Id.vertical = global::QuipVid.Droid.Resource.Id.vertical;
@@ -907,6 +976,7 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Integer.app_bar_elevation_anim_duration = global::QuipVid.Droid.Resource.Integer.app_bar_elevation_anim_duration;
 			global::CarouselView.FormsPlugin.Android.Resource.Integer.bottom_sheet_slide_duration = global::QuipVid.Droid.Resource.Integer.bottom_sheet_slide_duration;
 			global::CarouselView.FormsPlugin.Android.Resource.Integer.cancel_button_image_alpha = global::QuipVid.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.config_tooltipAnimTime = global::QuipVid.Droid.Resource.Integer.config_tooltipAnimTime;
 			global::CarouselView.FormsPlugin.Android.Resource.Integer.default_circle_indicator_orientation = global::QuipVid.Droid.Resource.Integer.default_circle_indicator_orientation;
 			global::CarouselView.FormsPlugin.Android.Resource.Integer.design_snackbar_text_max_lines = global::QuipVid.Droid.Resource.Integer.design_snackbar_text_max_lines;
 			global::CarouselView.FormsPlugin.Android.Resource.Integer.hide_password_duration = global::QuipVid.Droid.Resource.Integer.hide_password_duration;
@@ -1005,7 +1075,6 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.String.appbar_scrolling_view_behavior = global::QuipVid.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::CarouselView.FormsPlugin.Android.Resource.String.bottom_sheet_behavior = global::QuipVid.Droid.Resource.String.bottom_sheet_behavior;
 			global::CarouselView.FormsPlugin.Android.Resource.String.character_counter_pattern = global::QuipVid.Droid.Resource.String.character_counter_pattern;
-			global::CarouselView.FormsPlugin.Android.Resource.String.library_name = global::QuipVid.Droid.Resource.String.library_name;
 			global::CarouselView.FormsPlugin.Android.Resource.String.password_toggle_content_description = global::QuipVid.Droid.Resource.String.password_toggle_content_description;
 			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_eye = global::QuipVid.Droid.Resource.String.path_password_eye;
 			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_eye_mask_strike_through = global::QuipVid.Droid.Resource.String.path_password_eye_mask_strike_through;
@@ -1017,11 +1086,13 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Style.AlertDialog_AppCompat_Light = global::QuipVid.Droid.Resource.Style.AlertDialog_AppCompat_Light;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_AppCompat_Dialog = global::QuipVid.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::QuipVid.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_AppCompat_Tooltip = global::QuipVid.Droid.Resource.Style.Animation_AppCompat_Tooltip;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::QuipVid.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_AlertDialog_AppCompat = global::QuipVid.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::QuipVid.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::QuipVid.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::QuipVid.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::QuipVid.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_CardView = global::QuipVid.Droid.Resource.Style.Base_CardView;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::QuipVid.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::QuipVid.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
@@ -1052,6 +1123,7 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::QuipVid.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::QuipVid.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::QuipVid.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::QuipVid.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::QuipVid.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::QuipVid.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::QuipVid.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
@@ -1102,6 +1174,9 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::QuipVid.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V23_Theme_AppCompat = global::QuipVid.Droid.Resource.Style.Base_V23_Theme_AppCompat;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::QuipVid.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V26_Theme_AppCompat = global::QuipVid.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::QuipVid.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::QuipVid.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat = global::QuipVid.Droid.Resource.Style.Base_V7_Theme_AppCompat;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::QuipVid.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::QuipVid.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
@@ -1109,6 +1184,7 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::QuipVid.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::QuipVid.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::QuipVid.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::QuipVid.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::QuipVid.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::QuipVid.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::QuipVid.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
@@ -1222,6 +1298,7 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::QuipVid.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Title = global::QuipVid.Droid.Resource.Style.TextAppearance_AppCompat_Title;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::QuipVid.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::QuipVid.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::QuipVid.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::QuipVid.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::QuipVid.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
@@ -1241,6 +1318,16 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::QuipVid.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::QuipVid.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::QuipVid.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Compat_Notification = global::QuipVid.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::QuipVid.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::QuipVid.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::QuipVid.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::QuipVid.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::QuipVid.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::QuipVid.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::QuipVid.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::QuipVid.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::QuipVid.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::QuipVid.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Counter = global::QuipVid.Droid.Resource.Style.TextAppearance_Design_Counter;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::QuipVid.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
@@ -1360,6 +1447,8 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Toolbar = global::QuipVid.Droid.Resource.Style.Widget_AppCompat_Toolbar;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::QuipVid.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_CirclePageIndicator = global::QuipVid.Droid.Resource.Style.Widget_CirclePageIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::QuipVid.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Compat_NotificationActionText = global::QuipVid.Droid.Resource.Style.Widget_Compat_NotificationActionText;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_AppBarLayout = global::QuipVid.Droid.Resource.Style.Widget_Design_AppBarLayout;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_BottomNavigationView = global::QuipVid.Droid.Resource.Style.Widget_Design_BottomNavigationView;
 			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::QuipVid.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
@@ -1425,6 +1514,8 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::QuipVid.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout = global::QuipVid.Droid.Resource.Styleable.AppBarLayout;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_android_background = global::QuipVid.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::QuipVid.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::QuipVid.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_elevation = global::QuipVid.Droid.Resource.Styleable.AppBarLayout_elevation;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_expanded = global::QuipVid.Droid.Resource.Styleable.AppBarLayout_expanded;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates = global::QuipVid.Droid.Resource.Styleable.AppBarLayoutStates;
@@ -1453,6 +1544,12 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::QuipVid.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView = global::QuipVid.Droid.Resource.Styleable.AppCompatTextView;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::QuipVid.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::QuipVid.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::QuipVid.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::QuipVid.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::QuipVid.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::QuipVid.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::QuipVid.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::QuipVid.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
@@ -1509,6 +1606,7 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorError = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_colorError;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
@@ -1561,6 +1659,8 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::QuipVid.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
@@ -1668,6 +1768,17 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::QuipVid.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::QuipVid.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::QuipVid.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FontFamily = global::QuipVid.Droid.Resource.Styleable.FontFamily;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::QuipVid.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::QuipVid.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::QuipVid.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::QuipVid.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::QuipVid.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::QuipVid.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FontFamilyFont = global::QuipVid.Droid.Resource.Styleable.FontFamilyFont;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FontFamilyFont_font = global::QuipVid.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::QuipVid.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::QuipVid.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout = global::QuipVid.Droid.Resource.Styleable.ForegroundLinearLayout;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::QuipVid.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::QuipVid.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
@@ -1701,6 +1812,7 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_actionLayout = global::QuipVid.Droid.Resource.Styleable.MenuItem_actionLayout;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_actionProviderClass = global::QuipVid.Droid.Resource.Styleable.MenuItem_actionProviderClass;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_actionViewClass = global::QuipVid.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::QuipVid.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::QuipVid.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_checkable = global::QuipVid.Droid.Resource.Styleable.MenuItem_android_checkable;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_checked = global::QuipVid.Droid.Resource.Styleable.MenuItem_android_checked;
@@ -1714,7 +1826,12 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_title = global::QuipVid.Droid.Resource.Styleable.MenuItem_android_title;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::QuipVid.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_visible = global::QuipVid.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_contentDescription = global::QuipVid.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_iconTint = global::QuipVid.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_iconTintMode = global::QuipVid.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_numericModifiers = global::QuipVid.Droid.Resource.Styleable.MenuItem_numericModifiers;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_showAsAction = global::QuipVid.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_tooltipText = global::QuipVid.Droid.Resource.Styleable.MenuItem_tooltipText;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView = global::QuipVid.Droid.Resource.Styleable.MenuView;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_headerBackground = global::QuipVid.Droid.Resource.Styleable.MenuView_android_headerBackground;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::QuipVid.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
@@ -1748,6 +1865,11 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView = global::QuipVid.Droid.Resource.Styleable.RecyclerView;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::QuipVid.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_android_orientation = global::QuipVid.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::QuipVid.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::QuipVid.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::QuipVid.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::QuipVid.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::QuipVid.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_layoutManager = global::QuipVid.Droid.Resource.Styleable.RecyclerView_layoutManager;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_reverseLayout = global::QuipVid.Droid.Resource.Styleable.RecyclerView_reverseLayout;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_spanCount = global::QuipVid.Droid.Resource.Styleable.RecyclerView_spanCount;
@@ -1821,15 +1943,18 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::QuipVid.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabTextColor = global::QuipVid.Droid.Resource.Styleable.TabLayout_tabTextColor;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance = global::QuipVid.Droid.Resource.Styleable.TextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::QuipVid.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::QuipVid.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::QuipVid.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::QuipVid.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::QuipVid.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textColor = global::QuipVid.Droid.Resource.Styleable.TextAppearance_android_textColor;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::QuipVid.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::QuipVid.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textSize = global::QuipVid.Droid.Resource.Styleable.TextAppearance_android_textSize;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textStyle = global::QuipVid.Droid.Resource.Styleable.TextAppearance_android_textStyle;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_typeface = global::QuipVid.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_fontFamily = global::QuipVid.Droid.Resource.Styleable.TextAppearance_fontFamily;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_textAllCaps = global::QuipVid.Droid.Resource.Styleable.TextAppearance_textAllCaps;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout = global::QuipVid.Droid.Resource.Styleable.TextInputLayout;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_android_hint = global::QuipVid.Droid.Resource.Styleable.TextInputLayout_android_hint;
@@ -1894,49 +2019,6 @@ namespace QuipVid.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_id = global::QuipVid.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::QuipVid.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::QuipVid.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Com.Android.DeskClock.Resource.String.library_name = global::QuipVid.Droid.Resource.String.library_name;
-			global::Com.ViewPagerIndicator.Resource.Attribute.vpiCentered = global::QuipVid.Droid.Resource.Attribute.vpiCentered;
-			global::Com.ViewPagerIndicator.Resource.Attribute.vpiCirclePageIndicatorStyle = global::QuipVid.Droid.Resource.Attribute.vpiCirclePageIndicatorStyle;
-			global::Com.ViewPagerIndicator.Resource.Attribute.vpiFillColor = global::QuipVid.Droid.Resource.Attribute.vpiFillColor;
-			global::Com.ViewPagerIndicator.Resource.Attribute.vpiOrientation = global::QuipVid.Droid.Resource.Attribute.vpiOrientation;
-			global::Com.ViewPagerIndicator.Resource.Attribute.vpiPageColor = global::QuipVid.Droid.Resource.Attribute.vpiPageColor;
-			global::Com.ViewPagerIndicator.Resource.Attribute.vpiRadius = global::QuipVid.Droid.Resource.Attribute.vpiRadius;
-			global::Com.ViewPagerIndicator.Resource.Attribute.vpiSnap = global::QuipVid.Droid.Resource.Attribute.vpiSnap;
-			global::Com.ViewPagerIndicator.Resource.Attribute.vpiStrokeColor = global::QuipVid.Droid.Resource.Attribute.vpiStrokeColor;
-			global::Com.ViewPagerIndicator.Resource.Attribute.vpiStrokeWidth = global::QuipVid.Droid.Resource.Attribute.vpiStrokeWidth;
-			global::Com.ViewPagerIndicator.Resource.Boolean.default_circle_indicator_centered = global::QuipVid.Droid.Resource.Boolean.default_circle_indicator_centered;
-			global::Com.ViewPagerIndicator.Resource.Boolean.default_circle_indicator_snap = global::QuipVid.Droid.Resource.Boolean.default_circle_indicator_snap;
-			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_fill_color = global::QuipVid.Droid.Resource.Color.default_circle_indicator_fill_color;
-			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_page_color = global::QuipVid.Droid.Resource.Color.default_circle_indicator_page_color;
-			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_stroke_color = global::QuipVid.Droid.Resource.Color.default_circle_indicator_stroke_color;
-			global::Com.ViewPagerIndicator.Resource.Color.vpi__background_holo_dark = global::QuipVid.Droid.Resource.Color.vpi__background_holo_dark;
-			global::Com.ViewPagerIndicator.Resource.Color.vpi__background_holo_light = global::QuipVid.Droid.Resource.Color.vpi__background_holo_light;
-			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_disabled_holo_dark = global::QuipVid.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_dark;
-			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_disabled_holo_light = global::QuipVid.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_light;
-			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_holo_dark = global::QuipVid.Droid.Resource.Color.vpi__bright_foreground_holo_dark;
-			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_holo_light = global::QuipVid.Droid.Resource.Color.vpi__bright_foreground_holo_light;
-			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_inverse_holo_dark = global::QuipVid.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_dark;
-			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_inverse_holo_light = global::QuipVid.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_light;
-			global::Com.ViewPagerIndicator.Resource.Dimension.default_circle_indicator_radius = global::QuipVid.Droid.Resource.Dimension.default_circle_indicator_radius;
-			global::Com.ViewPagerIndicator.Resource.Dimension.default_circle_indicator_stroke_width = global::QuipVid.Droid.Resource.Dimension.default_circle_indicator_stroke_width;
-			global::Com.ViewPagerIndicator.Resource.Id.horizontal = global::QuipVid.Droid.Resource.Id.horizontal;
-			global::Com.ViewPagerIndicator.Resource.Id.vertical = global::QuipVid.Droid.Resource.Id.vertical;
-			global::Com.ViewPagerIndicator.Resource.Integer.default_circle_indicator_orientation = global::QuipVid.Droid.Resource.Integer.default_circle_indicator_orientation;
-			global::Com.ViewPagerIndicator.Resource.String.library_name = global::QuipVid.Droid.Resource.String.library_name;
-			global::Com.ViewPagerIndicator.Resource.Style.Theme_PageIndicatorDefaults = global::QuipVid.Droid.Resource.Style.Theme_PageIndicatorDefaults;
-			global::Com.ViewPagerIndicator.Resource.Style.Widget = global::QuipVid.Droid.Resource.Style.Widget;
-			global::Com.ViewPagerIndicator.Resource.Style.Widget_CirclePageIndicator = global::QuipVid.Droid.Resource.Style.Widget_CirclePageIndicator;
-			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator = global::QuipVid.Droid.Resource.Styleable.CirclePageIndicator;
-			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiCentered = global::QuipVid.Droid.Resource.Styleable.CirclePageIndicator_vpiCentered;
-			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiFillColor = global::QuipVid.Droid.Resource.Styleable.CirclePageIndicator_vpiFillColor;
-			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiOrientation = global::QuipVid.Droid.Resource.Styleable.CirclePageIndicator_vpiOrientation;
-			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiPageColor = global::QuipVid.Droid.Resource.Styleable.CirclePageIndicator_vpiPageColor;
-			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiRadius = global::QuipVid.Droid.Resource.Styleable.CirclePageIndicator_vpiRadius;
-			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiSnap = global::QuipVid.Droid.Resource.Styleable.CirclePageIndicator_vpiSnap;
-			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiStrokeColor = global::QuipVid.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeColor;
-			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth = global::QuipVid.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth;
-			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator = global::QuipVid.Droid.Resource.Styleable.ViewPagerIndicator;
-			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle = global::QuipVid.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::QuipVid.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::QuipVid.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::QuipVid.Droid.Resource.Attribute.font;
@@ -8947,31 +9029,28 @@ namespace QuipVid.Droid
 			public const int hide_bottom_view_on_scroll_behavior = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int library_name = 2131558446;
+			public const int mtrl_chip_close_icon_content_description = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int mtrl_chip_close_icon_content_description = 2131558447;
+			public const int password_toggle_content_description = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int password_toggle_content_description = 2131558448;
+			public const int path_password_eye = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int path_password_eye = 2131558449;
+			public const int path_password_eye_mask_strike_through = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int path_password_eye_mask_strike_through = 2131558450;
+			public const int path_password_eye_mask_visible = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int path_password_eye_mask_visible = 2131558451;
+			public const int path_password_strike_through = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int path_password_strike_through = 2131558452;
+			public const int search_menu_title = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int search_menu_title = 2131558453;
-			
-			// aapt resource value: 0x7F0D0036
-			public const int status_bar_notification_info_overflow = 2131558454;
+			public const int status_bar_notification_info_overflow = 2131558453;
 			
 			static String()
 			{
