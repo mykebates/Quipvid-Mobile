@@ -3,6 +3,7 @@
 <StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:converters="clr-namespace:QuipVid.Converters;assembly=QuipVid"
+             xmlns:controls="clr-namespace:QuipVid.Controls;assembly=QuipVid"
              x:Class="QuipVid.Controls.HorizontalCardSet"
              Spacing="0">
     <StackLayout.Resources>
@@ -18,32 +19,27 @@
             CornerRadius="0"
             HorizontalOptions="Start" />
     <CollectionView HeightRequest="120" x:Name="CardSet">
-        <CollectionView.ItemsLayout>
-            <ListItemsLayout Orientation="Horizontal" ItemSpacing="15" />
-        </CollectionView.ItemsLayout>
-        <CollectionView.ItemTemplate>
-            <DataTemplate>
-                <Grid BackgroundColor="White" WidthRequest="160">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="85" />
-                        <RowDefinition Height="35" />
-                    </Grid.RowDefinitions>
-
-                    <Image Source="https://via.placeholder.com/600x300" Aspect="AspectFill" Grid.Row="0" />
-                    <StackLayout Grid.Row="1" Spacing="0" Padding="10,0,0,0">
-                        <Label Text="It's a Ford" FontSize="Small" />
+        <CollectionView.Resources>
+            <ResourceDictionary>
+                <DataTemplate x:Key="FirstCardTemplate">
+                    <StackLayout Spacing="0" Padding="20,0,5,0">
+                        <controls:CardItem />
                     </StackLayout>
-                </Grid>
-            </DataTemplate>
-        </CollectionView.ItemTemplate>
-        <CollectionView.ItemsSource>
-            <x:Array Type="{x:Type x:String}">
-                <x:String>Item 1</x:String>
-                <x:String>Item 2</x:String>
-                <x:String>Item 3</x:String>
-                <x:String>Item 4</x:String>
-                <x:String>Item 5</x:String>
-            </x:Array>
-        </CollectionView.ItemsSource>
+                </DataTemplate>
+                <DataTemplate x:Key="DefaultCardTemplate">
+                    <StackLayout Spacing="0" Padding="5,0,5,0">
+                        <controls:CardItem />
+                    </StackLayout>
+                </DataTemplate>
+                <DataTemplate x:Key="LastCardTemplate">
+                    <StackLayout Spacing="0" Padding="5,0,20,0">
+                        <controls:CardItem />
+                    </StackLayout>
+                </DataTemplate>
+            </ResourceDictionary>
+        </CollectionView.Resources>
+        <CollectionView.ItemsLayout>
+            <ListItemsLayout Orientation="Horizontal" />
+        </CollectionView.ItemsLayout>
     </CollectionView>
 </StackLayout>
