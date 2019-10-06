@@ -27,22 +27,6 @@ namespace QuipVid.Controls
             };
             CarouselView.ItemsSource = Items;
         }
-
-        public void RefreshItems()
-        {
-            var tempItems = new List<string>();
-            
-            foreach (var item in Items.ToList())
-            {
-                tempItems.Add(item);
-                Items.Remove(item);
-            }
-
-            foreach (var item in tempItems)
-            {
-                Items.Add(item);
-            }
-        }
     }
 }
 

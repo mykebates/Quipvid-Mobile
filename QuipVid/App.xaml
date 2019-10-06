@@ -5,6 +5,7 @@
              x:Class="QuipVid.App">
     <Application.Resources>
         <Color x:Key="PrimaryColor">#272727</Color>
+        <Color x:Key="SecondaryColor">#B3B3B3</Color>
         <Color x:Key="AccentColor">#FFCD00</Color>
         <Style x:Key="BaseStyle" TargetType="Element">
             <Setter Property="Shell.BackgroundColor" Value="{StaticResource PrimaryColor}" />
