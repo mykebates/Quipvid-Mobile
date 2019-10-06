@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:QuipVid.Converters;assembly=QuipVid"
+             xmlns:controls="clr-namespace:QuipVid.Controls;assembly=QuipVid"
+             x:Class="QuipVid.Controls.HorizontalCardSet"
+             Spacing="0">
+    <StackLayout.Resources>
+        <ResourceDictionary>
+            <converters:UpperCaseConverter x:Key="UpperCaseConverter" />
+        </ResourceDictionary>
+    </StackLayout.Resources>
+    <Button Text="NEW QUIPS ›"
+            TextColor="Black"
+            FontAttributes="Bold"
+            BackgroundColor="Transparent"
+            Padding="20,0,0,0"
+            CornerRadius="0"
+            HorizontalOptions="Start" />
+    <CollectionView HeightRequest="120" x:Name="CardSet">
+        <CollectionView.Resources>
+            <ResourceDictionary>
+                <DataTemplate x:Key="FirstCardTemplate">
+                    <StackLayout Spacing="0" Padding="20,0,5,0">
+                        <controls:CardItem />
+                    </StackLayout>
+                </DataTemplate>
+                <DataTemplate x:Key="DefaultCardTemplate">
+                    <StackLayout Spacing="0" Padding="5,0,5,0">
+                        <controls:CardItem />
+                    </StackLayout>
+                </DataTemplate>
+                <DataTemplate x:Key="LastCardTemplate">
+                    <StackLayout Spacing="0" Padding="5,0,20,0">
+                        <controls:CardItem />
+                    </StackLayout>
+                </DataTemplate>
+            </ResourceDictionary>
+        </CollectionView.Resources>
+        <CollectionView.ItemsLayout>
+            <ListItemsLayout Orientation="Horizontal" />
+        </CollectionView.ItemsLayout>
+    </CollectionView>
+</StackLayout>
