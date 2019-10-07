@@ -13,7 +13,11 @@
     </Shell.TitleView>
     <ScrollView>
         <StackLayout Padding="0,0,0,40" Spacing="20">
-
+            <controls:DetailsCard />
+            <controls:HorizontalCardSet />
+            <controls:HorizontalCardSet />
+            <controls:HorizontalCardSet />
+            <controls:HorizontalCardSet />
         </StackLayout>
     </ScrollView>
 </ContentPage>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:utils="clr-namespace:QuipVid.Utils;assembly=QuipVid"
+             x:Class="QuipVid.Controls.DetailsCard"
+             Spacing="0">
+    <StackLayout Spacing="0"
+                 BackgroundColor="{StaticResource PrimaryColor}"
+                 Padding="25,10,25,15">
+        <Grid HeightRequest="200">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Image Source="https://via.placeholder.com/600x300"
+                   Aspect="AspectFill"
+                   Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="3" />
+
+            <Button Text="{x:Static utils:FontAwesomeIcons.PlayCircle}"
+                    FontFamily="{StaticResource FontAwesomeSolid}"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    CornerRadius="50"
+                    Opacity="0.6"
+                    FontSize="50"
+                    Padding="0"
+                    Grid.Row="1" Grid.Column="1" />
+        </Grid>
+        <StackLayout Orientation="Horizontal" Spacing="0" Padding="0,5,0,0">
+            <StackLayout Spacing="0" HorizontalOptions="Start">
+                <Label TextColor="White" Text="Toilet Sounds" FontSize="23" />
+                <StackLayout Orientation="Horizontal" Spacing="0">
+                    <Label Text="{x:Static utils:FontAwesomeIcons.Eye}"
+                           TextColor="#8D8D8D"
+                           FontFamily="{StaticResource FontAwesomeSolid}"
+                           VerticalOptions="Center" />
+                    <Label Margin="5,0,0,0" Text="1.4k" TextColor="#8D8D8D" />
+                </StackLayout>
+            </StackLayout>
+            <StackLayout HorizontalOptions="CenterAndExpand" />
+            <StackLayout HorizontalOptions="End" VerticalOptions="End">
+                <Button TextColor="White"
+                        HorizontalOptions="End"
+                        VerticalOptions="End"
+                        WidthRequest="30"
+                        HeightRequest="30"
+                        FontSize="30"
+                        FontFamily="{StaticResource FontAwesomeSolid}"
+                        BackgroundColor="Transparent"
+                        CornerRadius="0"
+                        Padding="0"
+                        Text="{x:Static utils:FontAwesomeIcons.ShareAlt}" />
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal"
+                 Spacing="0"
+                 BackgroundColor="White"
+                 Padding="20,20,20,20"
+                 x:Name="DescriptionSection">
+        <Image Source="https://via.placeholder.com/600x300"
+               Aspect="AspectFill"
+               VerticalOptions="Start"
+               HeightRequest="68"
+               WidthRequest="68" />
+        <StackLayout Spacing="0" Padding="20,0,0,0">
+            <Label Text="King of the Hill" FontAttributes="Bold" />
+            <Label
+                Text="{Binding VisibleDescription}" />
+            <Label Text="{x:Static utils:FontAwesomeIcons.ChevronDown}"
+                   FontFamily="{StaticResource FontAwesomeSolid}"
+                   HorizontalOptions="CenterAndExpand"
+                   Margin="0,5,0,0"
+                   x:Name="DescriptionToggle"/>
+        </StackLayout>
+    </StackLayout>
+</StackLayout>
