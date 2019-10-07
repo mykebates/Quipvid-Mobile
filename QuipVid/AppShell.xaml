@@ -12,17 +12,17 @@
         </ResourceDictionary>
     </Shell.Resources>
 
+    <FlyoutItem Title="Detail">
+        <Tab>
+            <ShellContent Style="{StaticResource DefaultShellStyle}">
+                <views:DetailPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
     <FlyoutItem Title="Home">
         <Tab>
             <ShellContent Style="{StaticResource DefaultShellStyle}">
                 <views:HomePage />
-            </ShellContent>
-        </Tab>
-    </FlyoutItem>
-    <FlyoutItem Title="About">
-        <Tab>
-            <ShellContent Style="{StaticResource DefaultShellStyle}">
-                <views:AboutPage />
             </ShellContent>
         </Tab>
     </FlyoutItem>

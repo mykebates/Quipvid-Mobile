@@ -41,8 +41,6 @@ namespace QuipVid.ViewModels
             return true;
         }
 
-        #region INotifyPropertyChanged
-
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
@@ -53,7 +51,5 @@ namespace QuipVid.ViewModels
 
             changed.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-
-        #endregion
     }
 }
