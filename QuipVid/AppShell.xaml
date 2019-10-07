@@ -19,10 +19,10 @@
             </ShellContent>
         </Tab>
     </FlyoutItem>
-    <FlyoutItem Title="About">
+    <FlyoutItem Title="Detail">
         <Tab>
             <ShellContent Style="{StaticResource DefaultShellStyle}">
-                <views:AboutPage />
+                <views:DetailPage />
             </ShellContent>
         </Tab>
     </FlyoutItem>
