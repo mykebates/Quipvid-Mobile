@@ -3,6 +3,7 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:controls="clr-namespace:QuipVid.Controls;assembly=QuipVid"
+       xmlns:video="clr-namespace:QuipVid.Video;assembly=QuipVid"
        xmlns:views="clr-namespace:QuipVid.Views"
        Title="QuipVid"
        x:Class="QuipVid.AppShell">
@@ -23,6 +24,15 @@
         <Tab>
             <ShellContent Style="{StaticResource DefaultShellStyle}">
                 <views:DetailPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Video">
+        <Tab>
+            <ShellContent Style="{StaticResource DefaultShellStyle}">
+                <ContentPage>
+                    <video:VideoPlayer Source="https://archive.org/download/BigBuckBunny_328/BigBuckBunny_512kb.mp4" ControlsEnabled="True"></video:VideoPlayer>
+                </ContentPage>
             </ShellContent>
         </Tab>
     </FlyoutItem>
