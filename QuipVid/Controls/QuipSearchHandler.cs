@@ -3,7 +3,7 @@ using Xamarin.Forms;
 
 namespace QuipVid.Controls
 {
-    public class QuipSearchHandler : SearchHandler
+    public partial class QuipSearchHandler : SearchHandler
     {
         public QuipSearchHandler()
         {
@@ -11,6 +11,7 @@ namespace QuipVid.Controls
             Placeholder = "Enter search term";
             TextColor = Color.White;
             BackgroundColor = (Color) App.Current.Resources["PrimaryColor"];
+            ItemTemplate = new SearchResult();
 
             // Currently setting the SearchBoxVisibility or the PlaceholderColor in iOS does not work properly
             // https://github.com/xamarin/Xamarin.Forms/issues/6726
@@ -44,6 +45,9 @@ namespace QuipVid.Controls
                 "Search results 4",
                 "Search results 5",
                 "Search results 6",
+                "Search results 7",
+                "Search results 8",
+                "Search results 9",
             };
         }
     }

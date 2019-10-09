@@ -36,9 +36,5 @@
             <Setter Property="BackgroundColor" Value="White" />
             <Setter Property="TextColor" Value="Black" />
         </Style>
-        <!-- <Style TargetType="Label"> -->
-        <!--     <Setter Property="BackgroundColor" Value="White" /> -->
-        <!--     <Setter Property="TextColor" Value="Black" /> -->
-        <!-- </Style> -->
     </Application.Resources>
 </Application>
